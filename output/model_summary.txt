@@ -1,0 +1,23 @@
+
+Call:
+glm(formula = diabetes ~ age + bmi + sex + smoker, family = binomial, 
+    data = data)
+
+Coefficients:
+             Estimate Std. Error z value Pr(>|z|)    
+(Intercept) -5.347624   0.893435  -5.985 2.16e-09 ***
+age          0.047522   0.009165   5.185 2.16e-07 ***
+bmi          0.116541   0.026549   4.390 1.14e-05 ***
+sexMale      0.878199   0.205830   4.267 1.98e-05 ***
+smokerYes    0.335898   0.220868   1.521    0.128    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 641.04  on 499  degrees of freedom
+Residual deviance: 573.30  on 495  degrees of freedom
+AIC: 583.3
+
+Number of Fisher Scoring iterations: 4
+
